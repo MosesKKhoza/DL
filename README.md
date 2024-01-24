@@ -26,7 +26,7 @@ techniques. The Cassava Image Dataset is accessible on [Kaggle](https://www.kagg
 The solution can be reproduced by the following steps:
 
 1. Downloading the image dataset and adding it into the `Cassava/` folder.
-2. Running notebook cells in order to create the U-Net Model and initial base models.
+2. Running notebook cells in ascending order to create the U-Net Model and initial base models.
 3. Adding test images to the `Cassava Test/` folder.
 4. Running inference with the models on the test dataset to get predictions.
 
