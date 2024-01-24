@@ -17,7 +17,7 @@ techniques. The Cassava Image Dataset is accessible on [Kaggle](https://www.kagg
 
 ## Repo structure
 - `MK-DL.ipynb` notebooks for data exploration, training models 
-- `Cassava/`: input data (images are not included due to size constraints and can be downloaded [here](https://www.kaggle.com/datasets/visalakshiiyer/))
+- `Cassava/`: input data (images are not included due to size constraints and can be downloaded [here](https://www.kaggle.com/datasets/visalakshiiyer/cassava-image-dataset))
 - `Cassava Test/`: test data (images are not included due to size constraints and can be downloaded [here](https://doi.org/10.7910/DVN/T4RB0B))
 
 ## Working with the repo
