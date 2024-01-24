@@ -12,11 +12,11 @@ Additionally, the model/s may then be adopted into technologies used by farmers 
 organisations to assist with early disease detection for early intervention and potential improvements 
 in crop yield and food security.
 
-This solution trains a U-Net Model (primarily used in medical applications) to segment the leaf from its background as part of identifying the region of interest (ROI) in the images as part of the image processing and then applying deep learning 
+This solution trains a U-Net Model (primarily used in medical applications) to segment the leaf from its background as part of identifying the region of interest (ROI) in the images and then applying deep learning 
 techniques. The Cassava Image Dataset is accessible on [Kaggle](https://www.kaggle.com/datasets/visalakshiiyer/cassava-image-dataset) for more details.
 
 ## Repo structure
-- `MK-DL.ipynb` notebooks for data eploration, training models 
+- `MK-DL.ipynb` notebooks for data exploration, training models 
 - `Cassava/`: input data (images are not included due to size constraints and can be downloaded [here](https://www.kaggle.com/datasets/visalakshiiyer/))
 - `Cassava Test/`: test data (images are not included due to size constraints and can be downloaded [here](https://doi.org/10.7910/DVN/T4RB0B))
 
@@ -25,7 +25,7 @@ techniques. The Cassava Image Dataset is accessible on [Kaggle](https://www.kagg
 
 The solution can be reproduced by the following steps:
 
-1. Downloading the image dataset and adding it into the `Cassava/` folder.
+1. Download the image dataset and add it to the `Cassava/` folder.
 2. Running notebook cells in ascending order to create the U-Net Model and initial base models.
 3. Adding test images to the `Cassava Test/` folder.
 4. Running inference with the models on the test dataset to get predictions.
